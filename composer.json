@@ -1,0 +1,33 @@
+{
+    "name": "dazzlesoftware/data",
+    "type": "library",
+    "description": "Dazzle Data Package",
+    "keywords": ["dazzle", "framework", "data"],
+    "homepage": "https://github.com/dazzle-framework/data",
+    "license": "GPL-3.0-or-later",
+    "require": {
+       "php": "^7.3.0",
+        "dazzlesoftware/registry": "^1.0"
+    },
+    "require-dev": {
+        "dazzlesoftware/dazzle-coding-standard": "^1.0",
+        "dazzlesoftware/test": "^1.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dazzle\\Data\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dazzle\\Data\\UnitTests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-2.0-dev": "2.0-dev"
+        }
+    }
+}
